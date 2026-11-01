@@ -37,6 +37,11 @@ ser fonte sem ninguém decidir isso.
 | `extensoes-declarativas.architecture.json` | perfil declarativo: catálogo de ensaio, admissão, recibos, arquivo local, ativação por organização, guia no CRM, as trocas de versão (atualizar e desfazer a última troca), a remoção da instalação e a auditoria da organização; o estado das provas fica no `contracts.status` do próprio mapa |
 | `banco-de-dados-externo.architecture.json` | banco externo (migration 0372, recorte do PR #1130 de contribuidor) — 14 peças, 19 arestas, 4 faixas; o cadastro por admin e a leitura por todos, a view `_safe` como única superfície da tela, a guarda de rede revalidada a CADA abertura de pool, e a **não-ligação declarada**: as tools do agente ficaram no PR de origem e entram num segundo recorte |
 
+### Documento auxiliar
+
+[`portfolio-demo-boundary.md`](portfolio-demo-boundary.md) 说明完整源码与 GitHub Pages 静态演示的
+职责边界。它不是架构图源文件，不参与 JSON/HTML 地图生成。
+
 > **Esta tabela já apodreceu uma vez:** ela listava 8 mapas quando o disco tinha 9 — faltava
 > `indice-de-atrito`. Nenhum teste lê este README (o gate lê os `.json`), então mapa novo que
 > não ganhe linha aqui nasce invisível para quem lê antes de codar. Confira com

@@ -10,6 +10,18 @@
 
 > CRM 保存业务事实，Pi 驱动 Agent 行动，Harness 管理执行边界。
 
+## 仓库与演示边界
+
+本仓库是完整的 Agent CRM 源码，包含 Next.js 应用、Pi Agent Runtime、Worker、Supabase
+迁移、MCP 工具和测试。GitHub Pages 上的[智营中台交互演示](https://sxh313.github.io/AiNativeCrm-demo/)
+是独立的静态展示仓库，只使用虚构数据、确定性流程和脱敏录制，不代表完整后端已经在线部署。
+
+求职时建议按这个顺序查看：先看[项目说明](项目说明-智营中台.md)，再打开[Agent–CRM 工作台演示](https://sxh313.github.io/AiNativeCrm-demo/#/app/ai/workbench)，最后回到源码中的
+[`lib/agent-runtime`](lib/agent-runtime)、[`lib/agent-engine`](lib/agent-engine) 和
+[`app/api/v1/ai/workbench`](app/api/v1/ai/workbench) 查看实现。
+
+仓库边界和演示限制见[展示边界说明](docs/architecture/portfolio-demo-boundary.md)。
+
 ## 我们的产品
 
 Pi Native CRM 是一个内部研发的 Agent-native CRM 工作台。联系人、会话、商机、跟进任务和知识库构成 Agent 的工作环境；自然语言目标成为执行入口。

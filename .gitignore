@@ -89,6 +89,8 @@ supabase/.branches/
 .waha-data/
 .epic-executor/
 .playwright-mcp/
+.playwright-cli/
+AiNativeCrm-pages-demo/.playwright-cli/
 
 # Sentry Config File
 .env.sentry-build-plugin
