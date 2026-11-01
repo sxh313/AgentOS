@@ -1,0 +1,543 @@
+- main [ref=f1e2]:
+  - button "Menu" [ref=f1e3] [cursor=pointer]
+  - complementary [ref=f1e8]:
+    - searchbox "Search text" [ref=f1e11]
+    - heading [level=1] [ref=f1e12]:
+      - link "AI Native CRM · 架构 Wiki" [ref=f1e13] [cursor=pointer]:
+        - /url: /
+    - list [ref=f1e15]:
+      - listitem [ref=f1e16]:
+        - link "全景架构总览" [ref=f1e17] [cursor=pointer]:
+          - /url: "#/README"
+      - listitem [ref=f1e18]:
+        - link "架构与面试问答" [ref=f1e19] [cursor=pointer]:
+          - /url: "#/QA-Interview-Guide"
+      - listitem [ref=f1e20]:
+        - text: 认识系统
+        - list [ref=f1e21]:
+          - listitem [ref=f1e22]:
+            - link "01 客户问题与 CRM" [ref=f1e23] [cursor=pointer]:
+              - /url: "#/pages/01"
+          - listitem [ref=f1e24]:
+            - link "02 业务与 Agent 流程" [ref=f1e25] [cursor=pointer]:
+              - /url: "#/pages/02"
+          - listitem [ref=f1e26]:
+            - link "03 代码地图与分层" [ref=f1e27] [cursor=pointer]:
+              - /url: "#/pages/03"
+          - listitem [ref=f1e28]:
+            - link "04 数据与实体" [ref=f1e29] [cursor=pointer]:
+              - /url: "#/pages/04"
+          - listitem [ref=f1e30]:
+            - link "05 身份与租户隔离" [ref=f1e31] [cursor=pointer]:
+              - /url: "#/pages/05"
+          - listitem [ref=f1e32]:
+            - link "06 REST API 与幂等" [ref=f1e33] [cursor=pointer]:
+              - /url: "#/pages/06"
+      - listitem [ref=f1e34]:
+        - text: CRM 业务
+        - list [ref=f1e35]:
+          - listitem [ref=f1e36]:
+            - link "07 客户 360" [ref=f1e37] [cursor=pointer]:
+              - /url: "#/pages/07"
+          - listitem [ref=f1e38]:
+            - link "08 会话收件箱" [ref=f1e39] [cursor=pointer]:
+              - /url: "#/pages/08"
+          - listitem [ref=f1e40]:
+            - link "09 跟进引擎" [ref=f1e41] [cursor=pointer]:
+              - /url: "#/pages/09"
+          - listitem [ref=f1e42]:
+            - link "10 渠道与内部协作" [ref=f1e43] [cursor=pointer]:
+              - /url: "#/pages/10"
+          - listitem [ref=f1e44]:
+            - link "11 商机看板" [ref=f1e45] [cursor=pointer]:
+              - /url: "#/pages/11"
+          - listitem [ref=f1e46]:
+            - link "12 日程与预约" [ref=f1e47] [cursor=pointer]:
+              - /url: "#/pages/12"
+          - listitem [ref=f1e48]:
+            - link "13 语音呼叫" [ref=f1e49] [cursor=pointer]:
+              - /url: "#/pages/13"
+      - listitem [ref=f1e50]:
+        - text: Agent 工程
+        - list [ref=f1e51]:
+          - listitem [ref=f1e52]:
+            - link "14 启动一次运行" [ref=f1e53] [cursor=pointer]:
+              - /url: "#/pages/14"
+          - listitem [ref=f1e54]:
+            - link "15 队列、取消与恢复" [ref=f1e55] [cursor=pointer]:
+              - /url: "#/pages/15"
+          - listitem [ref=f1e56]:
+            - link "16 事件与死信" [ref=f1e57] [cursor=pointer]:
+              - /url: "#/pages/16"
+          - listitem [ref=f1e58]:
+            - link "17 多 Agent 编排" [ref=f1e59] [cursor=pointer]:
+              - /url: "#/pages/17"
+          - listitem [ref=f1e60]:
+            - link "18 提案与人工审批" [ref=f1e61] [cursor=pointer]:
+              - /url: "#/pages/18"
+          - listitem [ref=f1e62]:
+            - link "19 BYOK 与模型网关" [ref=f1e63] [cursor=pointer]:
+              - /url: "#/pages/19"
+          - listitem [ref=f1e64]:
+            - link "20 Pi 运行时" [ref=f1e65] [cursor=pointer]:
+              - /url: "#/pages/20"
+          - listitem [ref=f1e66]:
+            - link "21 预算与失败处理" [ref=f1e67] [cursor=pointer]:
+              - /url: "#/pages/21"
+      - listitem [ref=f1e68]:
+        - text: 知识、记忆与评估
+        - list [ref=f1e69]:
+          - listitem [ref=f1e70]:
+            - link "22 客户记忆" [ref=f1e71] [cursor=pointer]:
+              - /url: "#/pages/22"
+          - listitem [ref=f1e72]:
+            - link "23 Mem0 与 SQL" [ref=f1e73] [cursor=pointer]:
+              - /url: "#/pages/23"
+          - listitem [ref=f1e74]:
+            - link "24 Wiki 与上下文投影" [ref=f1e75] [cursor=pointer]:
+              - /url: "#/pages/24"
+          - listitem [ref=f1e76]:
+            - link "25 RAG 与证据" [ref=f1e77] [cursor=pointer]:
+              - /url: "#/pages/25"
+          - listitem [ref=f1e78]:
+            - link "26 Eval" [ref=f1e79] [cursor=pointer]:
+              - /url: "#/pages/26"
+          - listitem [ref=f1e80]:
+            - link "27 Trace 与 Langfuse" [ref=f1e81] [cursor=pointer]:
+              - /url: "#/pages/27"
+      - listitem [ref=f1e82]:
+        - text: 运行与交付
+        - list [ref=f1e83]:
+          - listitem [ref=f1e84]:
+            - link "28 本地运行与验证" [ref=f1e85] [cursor=pointer]:
+              - /url: "#/pages/28"
+          - listitem [ref=f1e86]:
+            - link "29 外部服务接入" [ref=f1e87] [cursor=pointer]:
+              - /url: "#/pages/29"
+          - listitem [ref=f1e88]:
+            - link "30 演示与录制" [ref=f1e89] [cursor=pointer]:
+              - /url: "#/pages/30"
+          - listitem [ref=f1e90]:
+            - link "31 自托管与升级" [ref=f1e91] [cursor=pointer]:
+              - /url: "#/pages/31"
+          - listitem [ref=f1e92]:
+            - link "32 文档契约" [ref=f1e93] [cursor=pointer]:
+              - /url: "#/pages/32"
+          - listitem [ref=f1e94]:
+            - link "33 开发技能与发布" [ref=f1e95] [cursor=pointer]:
+              - /url: "#/pages/33"
+          - listitem [ref=f1e96]:
+            - link "34 声明式扩展" [ref=f1e97] [cursor=pointer]:
+              - /url: "#/pages/34"
+          - listitem [ref=f1e98]:
+            - link "35 完成度与证据" [ref=f1e99] [cursor=pointer]:
+              - /url: "#/pages/35"
+      - listitem [ref=f1e100]:
+        - text: 附录
+        - list [ref=f1e101]:
+          - listitem [ref=f1e102]:
+            - link "术语表" [ref=f1e103] [cursor=pointer]:
+              - /url: "#/pages/A1"
+          - listitem [ref=f1e104]:
+            - link "图解与截图来源" [ref=f1e105] [cursor=pointer]:
+              - /url: "#/pages/A2"
+          - listitem [ref=f1e106]:
+            - link "来源与版本" [ref=f1e107] [cursor=pointer]:
+              - /url: "#/pages/A3"
+          - listitem [ref=f1e108]:
+            - link "工程规范" [ref=f1e109] [cursor=pointer]:
+              - /url: "#/pages/A4"
+  - article [ref=f1e111]:
+    - heading [level=1] [ref=f1e112]:
+      - link "01 从客户问题开始认识 AI Native CRM" [ref=f1e113] [cursor=pointer]:
+        - /url: "#/pages/01?id=_01-%e4%bb%8e%e5%ae%a2%e6%88%b7%e9%97%ae%e9%a2%98%e5%bc%80%e5%a7%8b%e8%ae%a4%e8%af%86-ai-native-crm"
+    - paragraph [ref=f1e114]:
+      - link "返回母文档" [ref=f1e115] [cursor=pointer]:
+        - /url: "#/README"
+      - text: ·
+      - link "下一章" [ref=f1e116] [cursor=pointer]:
+        - /url: "#/pages/02"
+    - paragraph [ref=f1e117]:
+      - strong [ref=f1e118]: 本章目标：
+      - text: 理解 CRM、Agent、模型与人的职责，区分事实和建议。
+    - heading [level=2] [ref=f1e119]:
+      - link "业务流程与阅读起点" [ref=f1e120] [cursor=pointer]:
+        - /url: "#/pages/01?id=%e4%b8%9a%e5%8a%a1%e6%b5%81%e7%a8%8b%e4%b8%8e%e9%98%85%e8%af%bb%e8%b5%b7%e7%82%b9"
+    - paragraph [ref=f1e121]: 你会学到：这个项目服务谁，CRM 与 Agent 怎样配合，以及怎样区分代码、运行记录和演示界面。
+    - paragraph [ref=f1e122]: AI Native CRM 是一个可自行部署的客户关系管理系统。它把联系人、客户会话、商机、跟进任务和组织知识放在同一套系统中，再让 Agent 在权限范围内读取资料、分析问题、提出操作。仓库和内部模块也使用 Pi Native CRM 这个名称。
+    - paragraph [ref=f1e123]: 先想一个具体问题：销售经理希望知道“这笔商机为什么停住了，下一步应该做什么”。传统 CRM 保存客户信息、当前阶段、聊天历史和待办。Agent 读取这些记录，找出可引用的依据，再给出摘要或建议。CRM 负责业务事实与权限；模型负责有边界的推理。两者不是彼此替代。
+    - paragraph [ref=f1e124]:
+      - img "客户工作从事实记录走向辅助判断" [ref=f1e125]
+    - paragraph [ref=f1e126]: 图中实线表示正常业务信息的流动，虚线表示需要人复核的建议。生成一段“建议回复”不会自动产生客户消息。
+    - heading [level=3] [ref=f1e127]:
+      - link "先分清四个责任" [ref=f1e128] [cursor=pointer]:
+        - /url: "#/pages/01?id=%e5%85%88%e5%88%86%e6%b8%85%e5%9b%9b%e4%b8%aa%e8%b4%a3%e4%bb%bb"
+    - paragraph [ref=f1e129]: 在 AI Native CRM 中，不能把所有智能化能力笼统归为“AI 做的”。系统由明确的四方职责共同驱动：
+    - table [ref=f1e130]:
+      - rowgroup [ref=f1e131]:
+        - row [ref=f1e132]:
+          - columnheader "角色" [ref=f1e133]
+          - columnheader "它拥有什么？" [ref=f1e134]
+          - columnheader "它能执行什么？" [ref=f1e135]
+          - columnheader "核心代码锚点" [ref=f1e136]
+      - rowgroup [ref=f1e137]:
+        - row [ref=f1e138]:
+          - cell [ref=f1e139]:
+            - strong [ref=f1e140]: 人类操作员 (Human)
+          - cell "业务常识、战略意图与最终责任" [ref=f1e141]
+          - cell "发起任务委托、审批外发提案、处理异常" [ref=f1e142]
+          - cell [ref=f1e143]:
+            - code [ref=f1e144]: app/app/
+            - text: 前端交互
+        - row [ref=f1e145]:
+          - cell [ref=f1e146]:
+            - strong [ref=f1e147]: CRM 数据库 (Database)
+          - cell "业务事实（唯一真理 SOT）、租户规则" [ref=f1e148]
+          - cell "执行 RLS 行级隔离、唯一性约束、记录不可篡改审计日志" [ref=f1e149]
+          - cell [ref=f1e150]:
+            - code [ref=f1e151]: supabase/migrations/
+        - row [ref=f1e152]:
+          - cell [ref=f1e153]:
+            - strong [ref=f1e154]: 智能体运行时 (Pi Agent)
+          - cell "任务分解逻辑、回合控制、上下文生命周期" [ref=f1e155]
+          - cell "编排工具调用循环、拦截高危操作、生成结构化结果" [ref=f1e156]
+          - cell [ref=f1e157]:
+            - code [ref=f1e158]: lib/agent-runtime/pi/
+        - row [ref=f1e159]:
+          - cell [ref=f1e160]:
+            - strong [ref=f1e161]: 大语言模型 (LLM)
+          - cell "语言理解、上下文推理与拟人生成能力" [ref=f1e162]
+          - cell "提出下一步建议、生成草案、决定调用哪个受控工具" [ref=f1e163]
+          - cell [ref=f1e164]:
+            - code [ref=f1e165]: Model Gateway (BYOK)
+    - blockquote [ref=f1e166]:
+      - paragraph [ref=f1e167]:
+        - text: 📌
+        - strong [ref=f1e168]: 核心边界原则：
+        - text: 模型输出的永远是推理建议与工具参数，模型
+        - strong [ref=f1e169]: 绝不直接获得数据库写权限
+        - text: ；任何具有外部副作用的操作必须经由受控工具（Tools）或 HITL 审批流水线完成。
+    - paragraph [ref=f1e170]: 遇到一个组件时，先问四件事：它读什么？它能写什么？谁验证这次操作？进程退出后，哪些内容仍然存在？后面的技术栈、Agent 和知识设计都沿这四个问题展开。
+    - heading [level=3] [ref=f1e171]:
+      - link "第一眼先记住五个入口" [ref=f1e172] [cursor=pointer]:
+        - /url: "#/pages/01?id=%e7%ac%ac%e4%b8%80%e7%9c%bc%e5%85%88%e8%ae%b0%e4%bd%8f%e4%ba%94%e4%b8%aa%e5%85%a5%e5%8f%a3"
+    - list [ref=f1e173]:
+      - listitem [ref=f1e174]: 首页：把客户数量、近期任务、默认漏斗和有权查看的 Agent 活动放到一起。读取失败会显示失败状态，不应把零值当成真数据。
+      - listitem [ref=f1e175]: 联系人与商机：联系人描述“这个人”；商机描述“这次业务机会”。一个人和一次机会不是同一个对象。
+      - listitem [ref=f1e176]: Inbox：查看渠道会话，回复或记录内部备注。发送受渠道、会话、角色及其他业务规则约束。
+      - listitem [ref=f1e177]: Agent–CRM 工作台：选择内置 Agent、任务和 CRM 范围，观察一次运行的工具、证据、结果与评测。
+      - listitem [ref=f1e178]: 知识与记忆：知识库提供组织材料；经过确认的记忆保存特定事实。它们必须保留来源与适用范围。
+    - paragraph [ref=f1e179]: 项目还有日程、任务、风险雷达、快速回复、统计、组织设置、隐私请求与部署工具。本书先把这些入口放回完整产品中，再重点跟踪 CRM、Agent 和知识三条主线。目录不是“所有按钮都经过本次在线验收”的声明。
+    - heading [level=3] [ref=f1e180]:
+      - link "从当前新界面认入口" [ref=f1e181] [cursor=pointer]:
+        - /url: "#/pages/01?id=%e4%bb%8e%e5%bd%93%e5%89%8d%e6%96%b0%e7%95%8c%e9%9d%a2%e8%ae%a4%e5%85%a5%e5%8f%a3"
+    - paragraph [ref=f1e182]: 以下图片于 2026-10-04 从当前公开演示的真实浏览器页面直接截取，使用虚构数据；静态演示没有连接 CRM 后端、模型或真实通信渠道。它们说明界面如何呈现，不是主分支业务功能的在线验收。
+    - paragraph [ref=f1e183]:
+      - img "当前界面实拍：Agent–CRM 工作台中的只读模拟任务，2026-10-04" [ref=f1e184]
+    - paragraph [ref=f1e185]: 工作台把 Agent、目标商机、执行模式、任务结果和记录入口放在同一处。图中任务来自页面的预置样例；「本轮已结束」只代表这一段本地模拟结束，不能据此推断真实模型或业务执行已经成功。
+    - paragraph [ref=f1e186]:
+      - img "当前界面实拍：四阶段销售漏斗看板，2026-10-04，虚构数据" [ref=f1e187]
+    - paragraph [ref=f1e188]: 四列分别是新客户、已联系、方案沟通、已成交。卡片将机会金额、公司、待办和负责人放在一起，帮助你把联系人、商机与跟进任务关联起来。
+    - paragraph [ref=f1e189]:
+      - img "当前界面实拍：会话收件箱与仅模拟发送的输入区，2026-10-04" [ref=f1e190]
+    - paragraph [ref=f1e191]: 左侧选择会话，右侧阅读消息和准备草稿。图中保留「WhatsApp · 示例会话 · 未连接」与「模拟发送」提示；没有发生真实外发。
+    - paragraph [ref=f1e192]:
+      - img "当前界面实拍：绩效页的销售漏斗与客服表现，2026-10-04，演示数据" [ref=f1e193]
+    - paragraph [ref=f1e194]: 统计页展示聚合指标的组织方式。这里的商机数量、会话数和响应时间都属于演示样本，不能用作真实业务成绩。
+    - paragraph [ref=f1e195]: 本次使用 9 张当前界面实拍，另在联系人、Inbox、看板、工作台、记忆、知识与 Eval 对应章节放置近景。图片来源清单记录页面、状态、拍摄时间、尺寸与哈希。所有图片未经重绘或像素修改；细节图由浏览器直接截取面板区域。
+    - paragraph [ref=f1e196]:
+      - text: 演示 Site 固定到第 9 版
+      - code [ref=f1e197]: acd09a467d7fa45b410a10e35137fe2d729b52bb
+      - text: ，页面显示的接线基线标签为
+      - code [ref=f1e198]: 12749ab
+      - text: 。这两个标识与下方正文主分支
+      - code [ref=f1e199]: 679e09e8
+      - text: 是不同口径；截图里出现动效或检查样例，不表示候选改动已经合并。
+    - heading [level=3] [ref=f1e200]:
+      - link "本书固定在哪个版本" [ref=f1e201] [cursor=pointer]:
+        - /url: "#/pages/01?id=%e6%9c%ac%e4%b9%a6%e5%9b%ba%e5%ae%9a%e5%9c%a8%e5%93%aa%e4%b8%aa%e7%89%88%e6%9c%ac"
+    - paragraph [ref=f1e202]:
+      - text: 正文基线为主分支提交
+      - code [ref=f1e203]: 679e09e80878dff7b1c79b8537317b2b9e355331
+      - text: "。PR #2 已合并。2026-10-05 再次核验主分支未变化。2026-10-04 核验 PR 时，动效 PR #3 仍为 draft，头提交为"
+      - code [ref=f1e204]: 50125afd199de3234d0a2bad3c9e5c434c9c2262
+      - text: ；它没有进入本书主线。
+    - paragraph [ref=f1e205]:
+      - img "区分主分支、实验改动、运行记录和静态演示" [ref=f1e206]
+    - paragraph [ref=f1e207]: 四个框是四类证据，不能相互替代。主分支说明“代码是什么”；既有运行记录说明“某个环境在某次执行中发生了什么”；静态演示只说明交互表现；未合并 PR 说明候选改动。
+    - paragraph [ref=f1e208]: 本书没有启动真实数据库、调用真实模型或发送渠道消息。后文涉及真实运行成绩时，会明确标成仓库已有验收记录。CodeWiki 自身的图、链接、网页与内容包验证是另一件事。
+    - heading [level=3] [ref=f1e209]:
+      - link "怎么读更省力" [ref=f1e210] [cursor=pointer]:
+        - /url: "#/pages/01?id=%e6%80%8e%e4%b9%88%e8%af%bb%e6%9b%b4%e7%9c%81%e5%8a%9b"
+    - paragraph [ref=f1e211]: 第一次看项目：按 01 → 02 → 03 → 04 → 05 读。先说清业务对象和责任，再跟一条实际请求。
+    - paragraph [ref=f1e212]:
+      - text: 想懂技术栈怎样搭成系统：读
+      - link "03 技术栈与运行层" [ref=f1e213] [cursor=pointer]:
+        - /url: "#/pages/03"
+      - text: →
+      - link "05 身份和组织边界" [ref=f1e214] [cursor=pointer]:
+        - /url: "#/pages/05"
+      - text: →
+      - link "11 看板并发" [ref=f1e215] [cursor=pointer]:
+        - /url: "#/pages/11"
+      - text: →
+      - link "15 后台时间线" [ref=f1e216] [cursor=pointer]:
+        - /url: "#/pages/15"
+      - text: 。每章都从一个操作进入，不必先记住全部依赖名。
+    - paragraph [ref=f1e217]:
+      - text: 想懂“资料怎样成为模型输入”：读
+      - link "22 客户读取" [ref=f1e218] [cursor=pointer]:
+        - /url: "#/pages/22"
+      - text: →
+      - link "23 记忆排序" [ref=f1e219] [cursor=pointer]:
+        - /url: "#/pages/23"
+      - text: →
+      - link "24 上下文构造" [ref=f1e220] [cursor=pointer]:
+        - /url: "#/pages/24"
+      - text: →
+      - link "25 知识检索" [ref=f1e221] [cursor=pointer]:
+        - /url: "#/pages/25"
+      - text: 。注意每层保存的内容、来源和有效期。
+    - paragraph [ref=f1e222]: 想看 Agent：读 14 → 15 → 16 → 17 → 18 → 19 → 20 → 21，再进入记忆和知识章节。
+    - paragraph [ref=f1e223]: 想判断是否可上线：读 26 → 27 → 28 → 35。先分清测试覆盖、证据来源和当前缺口，再看分数。
+    - paragraph [ref=f1e224]: 正文采用短句、明确主语和一致术语。图解用于解释结构、调用与因果关系；这不是任何技术写作标准的认证，也不复制第三方书籍插图。
+    - heading [level=3] [ref=f1e225]:
+      - link "源码定位" [ref=f1e226] [cursor=pointer]:
+        - /url: "#/pages/01?id=%e6%ba%90%e7%a0%81%e5%ae%9a%e4%bd%8d"
+    - paragraph [ref=f1e227]:
+      - text: 固定版本：main
+      - code [ref=f1e228]: 679e09e8
+    - list [ref=f1e229]:
+      - listitem [ref=f1e230]:
+        - link [ref=f1e231] [cursor=pointer]:
+          - /url: https://github.com/helsome/AiNativeCrm/blob/679e09e80878dff7b1c79b8537317b2b9e355331/app/app/page.tsx#L9-L29
+          - code [ref=f1e232]: app/app/page.tsx:9-29
+        - text: ：首页认证、组织选择和失败状态
+      - listitem [ref=f1e233]:
+        - link [ref=f1e234] [cursor=pointer]:
+          - /url: https://github.com/helsome/AiNativeCrm/blob/679e09e80878dff7b1c79b8537317b2b9e355331/lib/home/read-home-dashboard.ts#L27-L95
+          - code [ref=f1e235]: lib/home/read-home-dashboard.ts:27-95
+        - text: ：首页业务摘要的实际读取
+      - listitem [ref=f1e236]:
+        - link [ref=f1e237] [cursor=pointer]:
+          - /url: https://github.com/helsome/AiNativeCrm/blob/679e09e80878dff7b1c79b8537317b2b9e355331/lib/navigation/catalogo.ts#L105-L235
+          - code [ref=f1e238]: lib/navigation/catalogo.ts:105-235
+        - text: ：工作台、Inbox、日程、联系人、任务与漏斗入口
+      - listitem [ref=f1e239]:
+        - link [ref=f1e240] [cursor=pointer]:
+          - /url: https://github.com/helsome/AiNativeCrm/blob/679e09e80878dff7b1c79b8537317b2b9e355331/app/app/ai/workbench/page.tsx#L16-L67
+          - code [ref=f1e241]: app/app/ai/workbench/page.tsx:16-67
+        - text: ：工作台角色和真实模型配置前提
+      - listitem [ref=f1e242]:
+        - link [ref=f1e243] [cursor=pointer]:
+          - /url: https://github.com/helsome/AiNativeCrm/blob/679e09e80878dff7b1c79b8537317b2b9e355331/docs/testing/system-acceptance-fixes-2026-10-03.md#L1-L71
+          - code [ref=f1e244]: docs/testing/system-acceptance-fixes-2026-10-03.md:1-71
+        - text: ：既有验收记录及未关闭边界
+    - heading [level=2] [ref=f1e245]:
+      - link "实现详解" [ref=f1e246] [cursor=pointer]:
+        - /url: "#/pages/01?id=%e5%ae%9e%e7%8e%b0%e8%af%a6%e8%a7%a3"
+    - heading [level=3] [ref=f1e247]:
+      - link "核心命题：什么算\"事实\"" [ref=f1e248] [cursor=pointer]:
+        - /url: "#/pages/01?id=%e6%a0%b8%e5%bf%83%e5%91%bd%e9%a2%98%ef%bc%9a%e4%bb%80%e4%b9%88%e7%ae%97quot%e4%ba%8b%e5%ae%9equot"
+    - paragraph [ref=f1e249]: 所谓"事实底座"，在本仓库中不是一句口号，而是由代码强制的三条规则。
+    - paragraph [ref=f1e250]:
+      - strong [ref=f1e251]: 第一，事实只存在于 Postgres 里。
+      - text: 系统把
+      - code [ref=f1e252]: event_log
+      - text: 当作事件溯源的唯一入口，Postgres 触发器
+      - strong [ref=f1e253]: 永不
+      - text: 发起 HTTP 调用——触发器只写入一行事件，由 worker 消费并产生副作用
+      - link "CLAUDE.md" [ref=f1e254] [cursor=pointer]:
+        - /url: https://github.com/helsome/AiNativeCrm/blob/679e09e80878dff7b1c79b8537317b2b9e355331/CLAUDE.md#L49
+      - text: 。这条禁令消灭了"数据库里发生了一件事，但外部世界不知道"这一整类不一致状态。事实源是数据库，副作用是派生。
+    - paragraph [ref=f1e255]:
+      - strong [ref=f1e256]: 第二，事实的读取必须带租户作用域。
+      - text: 所有 tenant-aware 表都带
+      - code [ref=f1e257]: organization_id uuid not null
+      - text: ，行级安全（RLS）通过
+      - code [ref=f1e258]: fn_user_org_ids()
+      - text: 辅助函数统一施加
+      - link "ARCHITECTURE.md" [ref=f1e259] [cursor=pointer]:
+        - /url: https://github.com/helsome/AiNativeCrm/blob/679e09e80878dff7b1c79b8537317b2b9e355331/ARCHITECTURE.md#L10
+      - text: 。智能体能读到哪条客户记录，取决于它以谁的身份被调用，而不是取决于模型"想"看什么。
+    - paragraph [ref=f1e260]:
+      - strong [ref=f1e261]: 第三，事实的写入必须留痕。
+      - text: 每一次成功的 POST/PATCH/DELETE 都会产生一条
+      - code [ref=f1e262]: api_audit_log
+      - text: 记录，且该表对
+      - code [ref=f1e263]: anon
+      - text: 、
+      - code [ref=f1e264]: authenticated
+      - text: 、
+      - code [ref=f1e265]: service_role
+      - strong [ref=f1e266]: 都没有
+      - text: UPDATE/DELETE/TRUNCATE 授权——连 service_role 也没有
+      - link "CLAUDE.md" [ref=f1e267] [cursor=pointer]:
+        - /url: https://github.com/helsome/AiNativeCrm/blob/679e09e80878dff7b1c79b8537317b2b9e355331/CLAUDE.md#L89
+      - text: 。这是从 schema 层保证的，不是靠提示词或纪律维持的。
+    - paragraph [ref=f1e268]:
+      - text: 这三条共同构成了"底座"：
+      - strong [ref=f1e269]: 智能体的每一个认知都源自数据库，每一次状态改变都写回数据库并被审计
+      - text: 。智能体本身是无状态的执行器，状态全部沉淀在 CRM 里。
+    - separator [ref=f1e270]
+    - heading [level=3] [ref=f1e271]:
+      - link "智能体回合的四层契约" [ref=f1e272] [cursor=pointer]:
+        - /url: "#/pages/01?id=%e6%99%ba%e8%83%bd%e4%bd%93%e5%9b%9e%e5%90%88%e7%9a%84%e5%9b%9b%e5%b1%82%e5%a5%91%e7%ba%a6"
+    - paragraph [ref=f1e273]:
+      - text: 智能体读取事实的过程，是整个系统最精妙也最容易被低估的部分。
+      - code [ref=f1e274]: docs/architecture/agent-turn-pi.md
+      - text: 用四层清晰定义了它
+      - link "agent-turn-pi.md" [ref=f1e275] [cursor=pointer]:
+        - /url: https://github.com/helsome/AiNativeCrm/blob/679e09e80878dff7b1c79b8537317b2b9e355331/docs/architecture/agent-turn-pi.md#L3
+      - text: ：
+    - table [ref=f1e276]:
+      - rowgroup [ref=f1e277]:
+        - row [ref=f1e278]:
+          - columnheader "层级" [ref=f1e279]
+          - columnheader "职责" [ref=f1e280]
+          - columnheader "关键产物" [ref=f1e281]
+      - rowgroup [ref=f1e282]:
+        - row [ref=f1e283]:
+          - cell "1. CRM 组装" [ref=f1e284]
+          - cell "构建租户作用域上下文、系统策略、记忆/RAG 结果、已发布智能体配置、能力工具" [ref=f1e285]
+          - cell "给模型的输入" [ref=f1e286]
+        - row [ref=f1e287]:
+          - cell "2. 模型网关" [ref=f1e288]
+          - cell "解析 provider / model / 凭据 / 绑定，并做预检预算决策" [ref=f1e289]
+          - cell "模型选择 + 预算闸门" [ref=f1e290]
+        - row [ref=f1e291]:
+          - cell [ref=f1e292]:
+            - text: "3."
+            - code [ref=f1e293]: AgentRuntime.run()
+          - cell "Pi Agent Core 拥有循环，CRM 回调执行前后工具策略" [ref=f1e294]
+          - cell "生命周期与工具事件" [ref=f1e295]
+        - row [ref=f1e296]:
+          - cell "4. CRM 持久化" [ref=f1e297]
+          - cell "持久化消息、用量、审计轨迹、队列状态" [ref=f1e298]
+          - cell "回到事实层" [ref=f1e299]
+    - paragraph [ref=f1e300]:
+      - text: 这张表最重要的信息是
+      - strong [ref=f1e301]: 所有权归属
+      - text: ：循环归 Pi，副作用归 CRM。文档用一句话点明——发送、转人工、对外自动化仍然是 CRM 拥有的效果
+      - link "agent-turn-pi.md" [ref=f1e302] [cursor=pointer]:
+        - /url: https://github.com/helsome/AiNativeCrm/blob/679e09e80878dff7b1c79b8537317b2b9e355331/docs/architecture/agent-turn-pi.md#L11
+      - text: 。
+    - paragraph [ref=f1e303]:
+      - text: 侧效应用的是纵深防御，一共有五层同时生效
+      - link "agent-turn-pi.md" [ref=f1e304] [cursor=pointer]:
+        - /url: https://github.com/helsome/AiNativeCrm/blob/679e09e80878dff7b1c79b8537317b2b9e355331/docs/architecture/agent-turn-pi.md#L19
+      - text: ：
+    - list [ref=f1e305]:
+      - listitem [ref=f1e306]: 现有的 CRM 护栏留在能力处理器内部
+      - listitem [ref=f1e307]:
+        - code [ref=f1e308]: beforeToolCall
+        - text: 可以在执行前阻断或终止
+      - listitem [ref=f1e309]:
+        - code [ref=f1e310]: afterToolCall
+        - text: 可以脱敏/替换结果或终止整个回合
+      - listitem [ref=f1e311]: 影子模式只允许读取类能力
+      - listitem [ref=f1e312]: 租户与 RBAC 检查保留在数据库/API 边界
+    - heading [level=4] [ref=f1e313]:
+      - link "上下文如何被装配成提示词" [ref=f1e314] [cursor=pointer]:
+        - /url: "#/pages/01?id=%e4%b8%8a%e4%b8%8b%e6%96%87%e5%a6%82%e4%bd%95%e8%a2%ab%e8%a3%85%e9%85%8d%e6%88%90%e6%8f%90%e7%a4%ba%e8%af%8d"
+    - paragraph [ref=f1e315]:
+      - text: 理解了上表之后，
+      - code [ref=f1e316]: lib/agent-engine/agent/context-builder.ts
+      - text: 的价值才显现——它是"事实"与"语言"之间的翻译层。函数按固定顺序装配出若干文本块：上一个回合的检查点、累积摘要、漏斗状态、线索记忆索引、已标记的日程、最近消息
+      - link "context-builder.ts" [ref=f1e317] [cursor=pointer]:
+        - /url: https://github.com/helsome/AiNativeCrm/blob/679e09e80878dff7b1c79b8537317b2b9e355331/lib/agent-engine/agent/context-builder.ts#L54
+      - text: 。
+    - paragraph [ref=f1e318]: 其中两处注释揭示了设计者对"事实如何影响模型"的深刻理解，值得逐字读：
+    - paragraph [ref=f1e319]:
+      - strong [ref=f1e320]: 检查点的时间戳必须被声明。
+      - text: 检查点块被放在提示词的
+      - strong [ref=f1e321]: 第一位置
+      - text: ——高于历史记录，因为模型会把最前面的内容读作"最新指令"。但这个检查点其实是
+      - strong [ref=f1e322]: 上一个回合结束时
+      - text: 写的，早于客户刚发来的那条消息。注释直说：不说明这点，一个过期的检查点就会赢过与它矛盾的历史记录
+      - link "context-builder.ts" [ref=f1e323] [cursor=pointer]:
+        - /url: https://github.com/helsome/AiNativeCrm/blob/679e09e80878dff7b1c79b8537317b2b9e355331/lib/agent-engine/agent/context-builder.ts#L55
+      - text: 。
+    - paragraph [ref=f1e324]:
+      - strong [ref=f1e325]: 字段名本身会泄漏给模型。
+      - text: 漏斗状态块原本叫
+      - code [ref=f1e326]: "## Estado do funil (lead_state)"
+      - text: ，注释承认这是"免费泄漏"——模型读到表名就会复述它，而复述表名等于打开了第二条泄漏通道
+      - link "context-builder.ts" [ref=f1e327] [cursor=pointer]:
+        - /url: https://github.com/helsome/AiNativeCrm/blob/679e09e80878dff7b1c79b8537317b2b9e355331/lib/agent-engine/agent/context-builder.ts#L69
+      - text: 。
+    - paragraph [ref=f1e328]:
+      - text: 还有一个更微妙的规则：
+      - strong [ref=f1e329]: 空字段不是"信息不存在"的证据
+      - text: 。当
+      - code [ref=f1e330]: contact.email
+      - text: 为空时，不把它当作事实呈现，因为模型会以"档案权威"的态度读取它，赢过客户刚刚输入了邮箱的历史记录；而且由于不存在写入路径，该字段永远保持为空，请求就会永远重复
+      - link "context-builder.ts" [ref=f1e331] [cursor=pointer]:
+        - /url: https://github.com/helsome/AiNativeCrm/blob/679e09e80878dff7b1c79b8537317b2b9e355331/lib/agent-engine/agent/context-builder.ts#L90
+      - text: 。但这个提醒是
+      - strong [ref=f1e332]: 条件性
+      - text: 的——总是加上会教会模型怀疑正常数据，那是镜像缺陷。
+    - separator [ref=f1e333]
+    - heading [level=3] [ref=f1e334]:
+      - link "CRM 如何被暴露为工具" [ref=f1e335] [cursor=pointer]:
+        - /url: "#/pages/01?id=crm-%e5%a6%82%e4%bd%95%e8%a2%ab%e6%9a%b4%e9%9c%b2%e4%b8%ba%e5%b7%a5%e5%85%b7"
+    - paragraph [ref=f1e336]: "\"底座\"要能被智能体操作，就必须有受控的接口层。这个接口是 MCP（Model Context Protocol）。"
+    - paragraph [ref=f1e337]:
+      - code [ref=f1e338]: lib/mcp/tools/catalogo/
+      - text: 按业务领域把工具分组：漏斗、日程、客服、商业、升级、演进、治理、运营、留存
+      - link "lib/mcp/tools/catalogo" [ref=f1e339] [cursor=pointer]:
+        - /url: https://github.com/helsome/AiNativeCrm/tree/679e09e80878dff7b1c79b8537317b2b9e355331/lib/mcp/tools/catalogo
+      - text: 。每个工具有
+      - strong [ref=f1e340]: 两套面向不同读者的描述
+      - text: ——
+      - code [ref=f1e341]: description
+      - text: 面向模型（技术性，决定工具被如何选择），
+      - code [ref=f1e342]: rotulo
+      - text: /
+      - code [ref=f1e343]: explicacao
+      - text: /
+      - code [ref=f1e344]: oQueToca
+      - text: 面向配置智能体的普通人（诊所老板、店主），必须不含行话；这个门禁由一个专门的测试守着
+      - link "catalog.ts" [ref=f1e345] [cursor=pointer]:
+        - /url: https://github.com/helsome/AiNativeCrm/tree/679e09e80878dff7b1c79b8537317b2b9e355331/lib/mcp/tools/catalogo
+      - text: 。
+    - paragraph [ref=f1e346]:
+      - text: 还有一个极易被破坏的约束：工具的
+      - code [ref=f1e347]: name
+      - text: 是
+      - strong [ref=f1e348]: 线上契约
+      - text: 。客户 VPS 上已发布的智能体和外部 MCP 客户端都引用这串字符串，永不重命名已发布的工具——友好名称只是展示层
+      - link "catalog.ts" [ref=f1e349] [cursor=pointer]:
+        - /url: https://github.com/helsome/AiNativeCrm/tree/679e09e80878dff7b1c79b8537317b2b9e355331/lib/mcp/tools/catalogo
+      - text: 。
+    - paragraph [ref=f1e350]:
+      - text: MCP 服务端的执行流程同样严谨：
+      - code [ref=f1e351]: createMcpServer
+      - text: 为每个工具注册处理器，处理器依次检查角色与作用域、调用业务逻辑、写入
+      - code [ref=f1e352]: api_audit_log
+      - text: 、返回标准 MCP 内容结构
+      - link "lib/mcp/server.ts" [ref=f1e353] [cursor=pointer]:
+        - /url: https://github.com/helsome/AiNativeCrm/blob/679e09e80878dff7b1c79b8537317b2b9e355331/lib/mcp/server.ts#L1
+      - text: 。错误以
+      - code [ref=f1e354]: "{ isError: true }"
+      - text: 返回，MCP 错误码放在 metadata 而非 JSON-RPC 错误封装中
+      - link "lib/mcp/server.ts" [ref=f1e355] [cursor=pointer]:
+        - /url: https://github.com/helsome/AiNativeCrm/blob/679e09e80878dff7b1c79b8537317b2b9e355331/lib/mcp/server.ts#L8
+      - text: 。
+    - paragraph [ref=f1e356]:
+      - text: 值得单独指出的是一个细节：MCP 与内部智能体入口
+      - strong [ref=f1e357]: 共享同一套参数净化逻辑
+      - text: 。注释解释了原因——一个落在可选字段上的兜底 UUID 会变成对不存在 id 的过滤，而空结果会被读作"没有数据"；两条路径进同一个处理器，所以必须一起净化，"关上门却忘了窗户"是不允许的
+      - link "lib/mcp/server.ts" [ref=f1e358] [cursor=pointer]:
+        - /url: https://github.com/helsome/AiNativeCrm/blob/679e09e80878dff7b1c79b8537317b2b9e355331/lib/mcp/server.ts#L51
+      - text: 。
+    - separator [ref=f1e359]
+    - heading [level=2] [ref=f1e360]:
+      - link "继续阅读" [ref=f1e361] [cursor=pointer]:
+        - /url: "#/pages/01?id=%e7%bb%a7%e7%bb%ad%e9%98%85%e8%af%bb"
+    - paragraph [ref=f1e362]:
+      - link "返回母文档" [ref=f1e363] [cursor=pointer]:
+        - /url: "#/README"
+      - text: ·
+      - link "下一章" [ref=f1e364] [cursor=pointer]:
+        - /url: "#/pages/02"

@@ -1,0 +1,602 @@
+- main [ref=e2]:
+  - button "Menu" [ref=e3] [cursor=pointer]
+  - complementary [ref=e8]:
+    - searchbox "Search text" [ref=e11]
+    - heading [level=1] [ref=e12]:
+      - link "AI Native CRM · 架构 Wiki" [ref=e13] [cursor=pointer]:
+        - /url: /
+    - list [ref=e15]:
+      - listitem [ref=e16]:
+        - link "全景架构总览" [ref=e17] [cursor=pointer]:
+          - /url: "#/README"
+      - listitem [ref=e18]:
+        - link "架构与面试问答" [ref=e19] [cursor=pointer]:
+          - /url: "#/QA-Interview-Guide"
+      - listitem [ref=e20]:
+        - text: 认识系统
+        - list [ref=e21]:
+          - listitem [ref=e22]:
+            - link "01 客户问题与 CRM" [ref=e23] [cursor=pointer]:
+              - /url: "#/pages/01"
+          - listitem [ref=e24]:
+            - link "02 业务与 Agent 流程" [ref=e25] [cursor=pointer]:
+              - /url: "#/pages/02"
+          - listitem [ref=e26]:
+            - link "03 代码地图与分层" [ref=e27] [cursor=pointer]:
+              - /url: "#/pages/03"
+          - listitem [ref=e28]:
+            - link "04 数据与实体" [ref=e29] [cursor=pointer]:
+              - /url: "#/pages/04"
+          - listitem [ref=e30]:
+            - link "05 身份与租户隔离" [ref=e31] [cursor=pointer]:
+              - /url: "#/pages/05"
+          - listitem [ref=e32]:
+            - link "06 REST API 与幂等" [ref=e33] [cursor=pointer]:
+              - /url: "#/pages/06"
+      - listitem [ref=e34]:
+        - text: CRM 业务
+        - list [ref=e35]:
+          - listitem [ref=e36]:
+            - link "07 客户 360" [ref=e37] [cursor=pointer]:
+              - /url: "#/pages/07"
+          - listitem [ref=e38]:
+            - link "08 会话收件箱" [ref=e39] [cursor=pointer]:
+              - /url: "#/pages/08"
+          - listitem [ref=e40]:
+            - link "09 跟进引擎" [ref=e41] [cursor=pointer]:
+              - /url: "#/pages/09"
+          - listitem [ref=e42]:
+            - link "10 渠道与内部协作" [ref=e43] [cursor=pointer]:
+              - /url: "#/pages/10"
+          - listitem [ref=e44]:
+            - link "11 商机看板" [ref=e45] [cursor=pointer]:
+              - /url: "#/pages/11"
+          - listitem [ref=e46]:
+            - link "12 日程与预约" [ref=e47] [cursor=pointer]:
+              - /url: "#/pages/12"
+          - listitem [ref=e48]:
+            - link "13 语音呼叫" [ref=e49] [cursor=pointer]:
+              - /url: "#/pages/13"
+      - listitem [ref=e50]:
+        - text: Agent 工程
+        - list [ref=e51]:
+          - listitem [ref=e52]:
+            - link "14 启动一次运行" [ref=e53] [cursor=pointer]:
+              - /url: "#/pages/14"
+          - listitem [ref=e54]:
+            - link "15 队列、取消与恢复" [ref=e55] [cursor=pointer]:
+              - /url: "#/pages/15"
+          - listitem [ref=e56]:
+            - link "16 事件与死信" [ref=e57] [cursor=pointer]:
+              - /url: "#/pages/16"
+          - listitem [ref=e58]:
+            - link "17 多 Agent 编排" [ref=e59] [cursor=pointer]:
+              - /url: "#/pages/17"
+          - listitem [ref=e60]:
+            - link "18 提案与人工审批" [ref=e61] [cursor=pointer]:
+              - /url: "#/pages/18"
+          - listitem [ref=e62]:
+            - link "19 BYOK 与模型网关" [ref=e63] [cursor=pointer]:
+              - /url: "#/pages/19"
+          - listitem [ref=e64]:
+            - link "20 Pi 运行时" [ref=e65] [cursor=pointer]:
+              - /url: "#/pages/20"
+          - listitem [ref=e66]:
+            - link "21 预算与失败处理" [ref=e67] [cursor=pointer]:
+              - /url: "#/pages/21"
+      - listitem [ref=e68]:
+        - text: 知识、记忆与评估
+        - list [ref=e69]:
+          - listitem [ref=e70]:
+            - link "22 客户记忆" [ref=e71] [cursor=pointer]:
+              - /url: "#/pages/22"
+          - listitem [ref=e72]:
+            - link "23 Mem0 与 SQL" [ref=e73] [cursor=pointer]:
+              - /url: "#/pages/23"
+          - listitem [ref=e74]:
+            - link "24 Wiki 与上下文投影" [ref=e75] [cursor=pointer]:
+              - /url: "#/pages/24"
+          - listitem [ref=e76]:
+            - link "25 RAG 与证据" [ref=e77] [cursor=pointer]:
+              - /url: "#/pages/25"
+          - listitem [ref=e78]:
+            - link "26 Eval" [ref=e79] [cursor=pointer]:
+              - /url: "#/pages/26"
+          - listitem [ref=e80]:
+            - link "27 Trace 与 Langfuse" [ref=e81] [cursor=pointer]:
+              - /url: "#/pages/27"
+      - listitem [ref=e82]:
+        - text: 运行与交付
+        - list [ref=e83]:
+          - listitem [ref=e84]:
+            - link "28 本地运行与验证" [ref=e85] [cursor=pointer]:
+              - /url: "#/pages/28"
+          - listitem [ref=e86]:
+            - link "29 外部服务接入" [ref=e87] [cursor=pointer]:
+              - /url: "#/pages/29"
+          - listitem [ref=e88]:
+            - link "30 演示与录制" [ref=e89] [cursor=pointer]:
+              - /url: "#/pages/30"
+          - listitem [ref=e90]:
+            - link "31 自托管与升级" [ref=e91] [cursor=pointer]:
+              - /url: "#/pages/31"
+          - listitem [ref=e92]:
+            - link "32 文档契约" [ref=e93] [cursor=pointer]:
+              - /url: "#/pages/32"
+          - listitem [ref=e94]:
+            - link "33 开发技能与发布" [ref=e95] [cursor=pointer]:
+              - /url: "#/pages/33"
+          - listitem [ref=e96]:
+            - link "34 声明式扩展" [ref=e97] [cursor=pointer]:
+              - /url: "#/pages/34"
+          - listitem [ref=e98]:
+            - link "35 完成度与证据" [ref=e99] [cursor=pointer]:
+              - /url: "#/pages/35"
+      - listitem [ref=e100]:
+        - text: 附录
+        - list [ref=e101]:
+          - listitem [ref=e102]:
+            - link "术语表" [ref=e103] [cursor=pointer]:
+              - /url: "#/pages/A1"
+          - listitem [ref=e104]:
+            - link "图解与截图来源" [ref=e105] [cursor=pointer]:
+              - /url: "#/pages/A2"
+          - listitem [ref=e106]:
+            - link "来源与版本" [ref=e107] [cursor=pointer]:
+              - /url: "#/pages/A3"
+          - listitem [ref=e108]:
+            - link "工程规范" [ref=e109] [cursor=pointer]:
+              - /url: "#/pages/A4"
+  - article [ref=e111]:
+    - heading [level=1] [ref=e112]:
+      - link "crm项目解析（全景架构与智能体工程导读）" [ref=e113] [cursor=pointer]:
+        - /url: "#/?id=crm%e9%a1%b9%e7%9b%ae%e8%a7%a3%e6%9e%90%ef%bc%88%e5%85%a8%e6%99%af%e6%9e%b6%e6%9e%84%e4%b8%8e%e6%99%ba%e8%83%bd%e4%bd%93%e5%b7%a5%e7%a8%8b%e5%af%bc%e8%af%bb%ef%bc%89"
+    - paragraph [ref=e114]:
+      - strong [ref=e115]: 文档定位：
+      - text: 本文档是 Pi Native CRM（AI Native CRM）的
+      - strong [ref=e116]: 全景架构与智能体工程导读
+      - text: 。我们不沉湎于具体的代码行号与接口细节，而是从
+      - strong [ref=e117]: 全栈工程视角
+      - text: 与
+      - strong [ref=e118]: Agent 智能体实现视角
+      - text: 两个核心维度，抽丝剥茧地讲透整个项目的顶层设计、前后端分工、数据流转以及背后的核心智能体知识。
+    - paragraph [ref=e119]:
+      - strong [ref=e120]: 源码基准：
+      - text: 主分支提交
+      - code [ref=e121]: 679e09e8
+      - text: ·
+      - strong [ref=e122]: 阅读时长：
+      - text: 约 15 分钟 ·
+      - strong [ref=e123]: 目标读者：
+      - text: 架构师、全栈工程师、智能体开发者及技术负责人。
+    - blockquote [ref=e124]:
+      - paragraph [ref=e125]:
+        - text: 💡
+        - strong [ref=e126]: 🔥 核心必读与实战问答：
+        - text: 为了帮助团队成员与读者在最短时间内吃透系统构造、应对技术深度问答，已整理配套指南： 👉
+        - link "《架构与面试深度 QA 指南（18 道核心题透析全栈与 Agent 底层）》" [ref=e127] [cursor=pointer]:
+          - /url: "#/QA-Interview-Guide"
+    - separator [ref=e128]
+    - heading [level=1] [ref=e129]:
+      - link "第一模块：全栈工程架构视角（Full-Stack Architecture）" [ref=e130] [cursor=pointer]:
+        - /url: "#/?id=%e7%ac%ac%e4%b8%80%e6%a8%a1%e5%9d%97%ef%bc%9a%e5%85%a8%e6%a0%88%e5%b7%a5%e7%a8%8b%e6%9e%b6%e6%9e%84%e8%a7%86%e8%a7%92%ef%bc%88full-stack-architecture%ef%bc%89"
+    - paragraph [ref=e131]:
+      - text: 从现代全栈工程的角度看，Pi Native CRM 解决的是企业中最核心的业务三要素：
+      - strong [ref=e132]: 客户（Who）、商机与流程（What）、全渠道沟通（How）
+      - text: 。系统采用前后端一体化的现代技术栈，但内部有着极其严密的信任分界与状态分工。
+    - heading [level=2] [ref=e133]:
+      - link "1.1 前后端分工与运行时拓扑" [ref=e134] [cursor=pointer]:
+        - /url: "#/?id=_11-%e5%89%8d%e5%90%8e%e7%ab%af%e5%88%86%e5%b7%a5%e4%b8%8e%e8%bf%90%e8%a1%8c%e6%97%b6%e6%8b%93%e6%89%91"
+    - paragraph [ref=e135]: 整个全栈系统自上而下分为四层物理与逻辑边界：
+    - generic [ref=e136]:
+      - code [ref=e137]: "┌────────────────────────────────────────────────────────────────────────┐ │ 1. 浏览器与呈现层 (Client UI) │ │ • Next.js 16 Client Components + Radix UI + Tailwind CSS │ │ • 状态管理: React 19 本地状态 (UI交互) + TanStack Query (服务端缓存) │ │ • 专有画布: ReactFlow (流程图编排) + 实时通信 (Supabase Realtime) │ └───────────────────────────────────┬────────────────────────────────────┘ │ HTTPS (Cookie / Bearer) ┌───────────────────────────────────▼────────────────────────────────────┐ │ 2. 边缘网关与服务端层 (Server & API) │ │ • 边缘代理 (proxy.ts): 注入全局 X-Request-Id，会话有效性初筛 │ │ • API Route Handlers (/api/v1/): 160+ 业务端点，Zod 强契约参数校验 │ │ • 双重鉴权体系: 前端 Cookie 会话 (sb-pi-native-auth) + 外部 Bearer Token│ │ • 租户上下文解析: resolveActiveOrg() (严密防止越权，严禁信任 Body 参数)│ └───────────────────────────────────┬────────────────────────────────────┘ │ ┌────────────────────────┴────────────────────────┐ ▼ ▼ ┌──────────────────────────────────┐ ┌──────────────────────────────────┐ │ 3. 核心持久化与安全层 │ │ 4. 异步事件与队列层 │ │ • Supabase Postgres: 业务唯一真理│ │ • 异步事件总线: event_log 表 │ │ • RLS 行级隔离: fn_user_org_ids()│ │ • 轻量级 Event Sourcing 机制 │ │ • 存储: Supabase Storage 私有桶 │ │ • 后台消费者: 10 个独立 Cron 轮询│ │ • 限流: Upstash Redis (固定窗口) │ │ • 职责: 解耦高延迟副作用与主事务 │ └──────────────────────────────────┘ └──────────────────────────────────┘"
+      - text: text
+    - heading [level=2] [ref=e138]:
+      - link "1.2 全栈架构的关键构造要点" [ref=e139] [cursor=pointer]:
+        - /url: "#/?id=_12-%e5%85%a8%e6%a0%88%e6%9e%b6%e6%9e%84%e7%9a%84%e5%85%b3%e9%94%ae%e6%9e%84%e9%80%a0%e8%a6%81%e7%82%b9"
+    - list [ref=e140]:
+      - listitem [ref=e141]:
+        - strong [ref=e142]: 前后端同构，但信任边界绝对隔离：
+        - text: Next.js 16 使得页面代码与 API 路由位于同一个仓库。但同仓库不等于共享信任。浏览器永远只持有展示状态（通过 TanStack Query 维护数据副本）；所有的业务规则校验、权限守卫（RBAC）与审计记录，全部发生在服务端的 Route Handlers 中。
+      - listitem [ref=e143]:
+        - strong [ref=e144]: 多租户安全下沉至数据库引擎（RLS by-design）：
+        - text: 系统服务于多个企业租户。如果把多租户数据隔离寄托于工程师在业务代码里写
+        - code [ref=e145]: where organization_id = ...
+        - text: ，越权漏洞迟早会发生。本系统在所有业务表上强制开启 Postgres
+        - strong [ref=e146]: 行级安全（Row Level Security, RLS）
+        - text: ，通过底层的
+        - code [ref=e147]: fn_user_org_ids()
+        - text: 策略，跨租户数据在 SQL 查询级别直接“物理隐形”。
+      - listitem [ref=e148]:
+        - strong [ref=e149]: 核心事务与外部副作用彻底解耦（Event Sourcing 设计）：
+        - text: 这是保证系统高可靠性的核心设计：
+        - strong [ref=e150]: Postgres 数据库触发器永不发起外部 HTTP 请求！
+        - text: 当业务状态变更时，触发器仅向
+        - code [ref=e151]: event_log
+        - text: 写入一条轻量事件记录。发信、调用模型、索引 RAG、语音呼叫等所有高延迟或可能失败的外部副作用，全部由后台独立 Worker 轮询消费。即使 WhatsApp 网关或大模型接口暂时超时，核心 CRM 事务也不会被挂起或回滚。
+      - listitem [ref=e152]:
+        - strong [ref=e153]: 全渠道网关接入（Ingress）：
+        - text: 外部世界通过标准 Webhook 接入系统。WhatsApp 消息经由 WAHA (WhatsApp HTTP API, NOWEB 引擎) 验签后送入系统；语音呼叫通过 Asterisk SIP 交换机接入；外部开发者通过 MCP (Model Context Protocol) 协议将 CRM 作为工具调用。
+    - separator [ref=e154]
+    - heading [level=1] [ref=e155]:
+      - link "第二模块：Agent 智能体架构与 Pi SDK 深度剖析（The Agent Architecture）" [ref=e156] [cursor=pointer]:
+        - /url: "#/?id=%e7%ac%ac%e4%ba%8c%e6%a8%a1%e5%9d%97%ef%bc%9aagent-%e6%99%ba%e8%83%bd%e4%bd%93%e6%9e%b6%e6%9e%84%e4%b8%8e-pi-sdk-%e6%b7%b1%e5%ba%a6%e5%89%96%e6%9e%90%ef%bc%88the-agent-architecture%ef%bc%89"
+    - paragraph [ref=e157]:
+      - text: 这是本项目最核心的创新点：
+      - strong [ref=e158]: 它不是一个普通的 CRM 挂了一个 AI 聊天窗口，而是一个将 Agent 视为“一等公民（First-Class Citizen）”的 AI Native 业务工作台。
+    - heading [level=2] [ref=e159]:
+      - link "2.1 认识本质：从“无状态模型”到“有状态智能体”" [ref=e160] [cursor=pointer]:
+        - /url: "#/?id=_21-%e8%ae%a4%e8%af%86%e6%9c%ac%e8%b4%a8%ef%bc%9a%e4%bb%8e%e6%97%a0%e7%8a%b6%e6%80%81%e6%a8%a1%e5%9e%8b%e5%88%b0%e6%9c%89%e7%8a%b6%e6%80%81%e6%99%ba%e8%83%bd%e4%bd%93"
+    - paragraph [ref=e161]: 在理解代码之前，必须先理清关于 Agent 的本质知识：
+    - table [ref=e162]:
+      - rowgroup [ref=e163]:
+        - row [ref=e164]:
+          - columnheader "对比维度" [ref=e165]
+          - columnheader "普通 LLM 模型调用 (Chat)" [ref=e166]
+          - columnheader "Pi Agent 智能体系统 (Agent)" [ref=e167]
+      - rowgroup [ref=e168]:
+        - row [ref=e169]:
+          - cell [ref=e170]:
+            - strong [ref=e171]: 本质属性
+          - cell "无状态的“文本生成函数”（输入 Prompt，输出 Token）" [ref=e172]
+          - cell "有状态的“自主环境交互系统”（拥有目标、状态机与工具集）" [ref=e173]
+        - row [ref=e174]:
+          - cell [ref=e175]:
+            - strong [ref=e176]: 交互模式
+          - cell "单轮或被动的请求-响应" [ref=e177]
+          - cell "自主的“思考-行动-观察（ReAct）”闭环指令循环" [ref=e178]
+        - row [ref=e179]:
+          - cell [ref=e180]:
+            - strong [ref=e181]: 物理世界影响
+          - cell "仅能返回建议文本，无法感知或改变现实" [ref=e182]
+          - cell "通过受控工具读取数据库、调用外部接口、提出业务提案" [ref=e183]
+        - row [ref=e184]:
+          - cell [ref=e185]:
+            - strong [ref=e186]: 错误恢复
+          - cell "报错即中断" [ref=e187]
+          - cell "能够读取工具报错信息，自主修正参数并再次尝试" [ref=e188]
+    - heading [level=2] [ref=e189]:
+      - link "2.2 Pi Agent Core SDK 的底层机制：智能体的指令周期（The Agent Loop）" [ref=e190] [cursor=pointer]:
+        - /url: "#/?id=_22-pi-agent-core-sdk-%e7%9a%84%e5%ba%95%e5%b1%82%e6%9c%ba%e5%88%b6%ef%bc%9a%e6%99%ba%e8%83%bd%e4%bd%93%e7%9a%84%e6%8c%87%e4%bb%a4%e5%91%a8%e6%9c%9f%ef%bc%88the-agent-loop%ef%bc%89"
+    - paragraph [ref=e191]:
+      - text: 系统底层深度集成了
+      - code [ref=e192]: "@earendil-works/pi-agent-core"
+      - text: 。Pi SDK 为系统提供的是一个
+      - strong [ref=e193]: 严密的智能体运行时内核（Runtime Kernel）
+      - text: 。它在后台驱动的执行循环（Agent Loop）类似于操作系统的 CPU 指令周期：
+    - generic [ref=e194]:
+      - code [ref=e195]: ┌────────────────────────────────────────────────────────────────────────┐ │ Pi Agent Loop 指令周期循环 │ │ │ │ ┌──────────────┐ 1. 组装输入 ┌───────────────────┐ │ │ │ CRM 事实底座 │ ─────────────────> │ System Prompt │ │ │ │ & 客户上下文 │ │ + 历史消息池 │ │ │ └──────────────┘ └─────────┬─────────┘ │ │ │ 2. 流式调用 │ │ ▼ │ │ ┌───────────────────┐ │ │ │ 大语言模型 (LLM) │ │ │ └─────────┬─────────┘ │ │ │ │ │ ┌────────────────────────┴──────────────┐ │ │ ▼ 3a. 输出文本 ▼ 3b. │ │ ┌───────────────────┐ ┌──────────────┐│ │ │ 产生最终交付 │ │ 发起工具调用 ││ │ │ submit_workbench_ │ │ Tool Calls ││ │ │ result │ └──────┬───────┘│ │ └─────────┬─────────┘ │ 4. 拦截│ │ │ ▼ & 执行 │ │ │ ┌──────────────┐│ │ │ │ CRM 受控工具 ││ │ │ │ (只读/提案) ││ │ │ └──────┬───────┘│ │ │ │ 5. 回灌│ │ │ 6. 结果作为新的环境观察 │ 观察 │ │ │ <──────────────────────────────────┘ 事实 │ │ ▼ │ │ [ 循环评估结束 ] │ └────────────────────────────────────────────────────────────────────────┘
+      - text: text
+    - paragraph [ref=e196]:
+      - strong [ref=e197]: Pi 循环的五个核心生命周期：
+    - list [ref=e198]:
+      - listitem [ref=e199]:
+        - strong [ref=e200]: 上下文投影（Context Projection）：
+        - text: 进入循环前，CRM 会把当前客户事实、组织政策、历史会话与当前商机动态装配为第一条带有时间戳的 Context。
+      - listitem [ref=e201]:
+        - strong [ref=e202]: 模型流式推理（Model Stream）：
+        - text: 通过 Model Gateway 适配不同 Provider（Anthropic / OpenAI / DeepSeek），模型一边流式生成思考，一边决定是否调用工具。
+      - listitem [ref=e203]:
+        - strong [ref=e204]: 工具拦截与守卫（beforeToolCall）：
+        - text: 这是 Pi 提供的关键安全挂钩。在工具代码真正运行前，CRM 护栏会检查入参合法性、权限范围与预算额度。若发现越权，可在此刻直接阻断。
+      - listitem [ref=e205]:
+        - strong [ref=e206]: 执行与观察回灌（Tool Observation）：
+        - text: 工具执行完毕后，返回值包装为标准格式写回上下文。模型在下一轮看到的不再是它自己的猜测，而是
+        - strong [ref=e207]: 真实的系统事实（Observation）
+        - text: 。如果工具执行报错，模型会阅读错误原因并在下一轮自主重试。
+      - listitem [ref=e208]:
+        - strong [ref=e209]: 终止判定与结构化交付（Termination & Submission）：
+        - text: 循环不能无限进行。系统设有轮次上限（Max Turns）与 Token 预算门禁。当 Agent 完成任务时，必须通过受控的提交口
+        - code [ref=e210]: submit_workbench_result
+        - text: 交付结构化摘要与事实依据，而不是随意输出散漫文字。
+    - heading [level=2] [ref=e211]:
+      - link "2.3 Agent 工程的关键认知与设计哲学" [ref=e212] [cursor=pointer]:
+        - /url: "#/?id=_23-agent-%e5%b7%a5%e7%a8%8b%e7%9a%84%e5%85%b3%e9%94%ae%e8%ae%a4%e7%9f%a5%e4%b8%8e%e8%ae%be%e8%ae%a1%e5%93%b2%e5%ad%a6"
+    - paragraph [ref=e213]: 在 Pi SDK 之上，系统贯彻了五项顶尖的智能体工程设计规范：
+    - heading [level=3] [ref=e214]:
+      - link "要点一：工具安全四级分类与“可逆写”设计" [ref=e215] [cursor=pointer]:
+        - /url: "#/?id=%e8%a6%81%e7%82%b9%e4%b8%80%ef%bc%9a%e5%b7%a5%e5%85%b7%e5%ae%89%e5%85%a8%e5%9b%9b%e7%ba%a7%e5%88%86%e7%b1%bb%e4%b8%8e%e5%8f%af%e9%80%86%e5%86%99%e8%ae%be%e8%ae%a1"
+    - paragraph [ref=e216]: 系统严禁将裸 SQL 或未经保护的修改接口直接暴露给 Agent。所有工具分为严格的四级：
+    - list [ref=e217]:
+      - listitem [ref=e218]:
+        - strong [ref=e219]: Read（只读工具）：
+        - text: 如查询客户档案、检索会话记录。无外部副作用，Agent 循环内直接调用。
+      - listitem [ref=e220]:
+        - strong [ref=e221]: Reversible Write（可逆写入）：
+        - text: 如更新商机标题或阶段。必须具备前置快照（Snapshot）与
+        - code [ref=e222]: expected_updated_at
+        - text: 乐观锁。系统保存回滚补偿参数，防止并发冲突覆盖他人修改。
+      - listitem [ref=e223]:
+        - strong [ref=e224]: External（外部动作）：
+        - text: 如向客户发送 WhatsApp 消息、预订外部日程。这是不可逆操作，
+        - strong [ref=e225]: Agent 绝对无法直接调用生效
+        - text: 。
+      - listitem [ref=e226]:
+        - strong [ref=e227]: Irreversible（高危操作）：
+        - text: 删除数据、签署协议等，强制阻断。
+    - heading [level=3] [ref=e228]:
+      - link "要点二：人机协同（HITL, Human-in-the-Loop）与提案状态机" [ref=e229] [cursor=pointer]:
+        - /url: "#/?id=%e8%a6%81%e7%82%b9%e4%ba%8c%ef%bc%9a%e4%ba%ba%e6%9c%ba%e5%8d%8f%e5%90%8c%ef%bc%88hitl-human-in-the-loop%ef%bc%89%e4%b8%8e%e6%8f%90%e6%a1%88%e7%8a%b6%e6%80%81%e6%9c%ba"
+    - paragraph [ref=e230]:
+      - strong [ref=e231]: 为什么起草回复不等于发送客户？
+      - text: 这是防范大模型幻觉灾难的核心哲学： 在 Agent 工作台中，模型生成的回复建议只是
+      - strong [ref=e232]: 内存中的推理草稿
+      - text: 。当 Agent 认为需要推进业务时，系统会生成一张
+      - code [ref=e233]: Action Proposal
+      - text: （行动提案），并将运行状态机置为
+      - code [ref=e234]: awaiting_confirmation
+      - text: 挂起等待。只有当销售员在 UI 上核验无误并点击批准后，系统才通过两阶段事务正式调用渠道外发。
+      - strong [ref=e235]: 把决策权留给人类，把繁重的信息检索与草案整理交给 Agent。
+    - heading [level=3] [ref=e236]:
+      - link "要点三：三级记忆体系（事实 vs 偏好 vs 政策）" [ref=e237] [cursor=pointer]:
+        - /url: "#/?id=%e8%a6%81%e7%82%b9%e4%b8%89%ef%bc%9a%e4%b8%89%e7%ba%a7%e8%ae%b0%e5%bf%86%e4%bd%93%e7%b3%bb%ef%bc%88%e4%ba%8b%e5%ae%9e-vs-%e5%81%8f%e5%a5%bd-vs-%e6%94%bf%e7%ad%96%ef%bc%89"
+    - paragraph [ref=e238]: 智能体不是把所有资料胡乱塞进 Prompt，而是建立了严密的“三级记忆分工”：
+    - list [ref=e239]:
+      - listitem [ref=e240]:
+        - strong [ref=e241]: SQL 强一致事实（Postgres）：
+        - text: 客户电话、商机金额、历史跟进时间。这是唯一真理（SOT），绝不容许模型自由发挥。
+      - listitem [ref=e242]:
+        - strong [ref=e243]: 动态个性化偏好（Mem0）：
+        - text: 如“林女士倾向于看文字方案而非电话沟通”、“客户对交付周期非常敏感”。这类信息通过动态加权与更新，帮助 Agent 调整沟通风格。
+      - listitem [ref=e244]:
+        - strong [ref=e245]: 非结构化组织知识（RAG / pgvector）：
+        - text: 产品说明书、售后退换政策。通过语义检索召回，Agent 输出结论时必须附带知识库版本引用，证据不足时必须诚实声明“资料缺失”。
+    - heading [level=3] [ref=e246]:
+      - link "要点四：模型网关（Model Gateway）与 BYOK 治理" [ref=e247] [cursor=pointer]:
+        - /url: "#/?id=%e8%a6%81%e7%82%b9%e5%9b%9b%ef%bc%9a%e6%a8%a1%e5%9e%8b%e7%bd%91%e5%85%b3%ef%bc%88model-gateway%ef%bc%89%e4%b8%8e-byok-%e6%b2%bb%e7%90%86"
+    - paragraph [ref=e248]: 系统为每个企业租户提供自带模型密钥（Bring Your Own Key, BYOK）能力。凭证在数据库中对称加密存储，仅在发起模型调用时瞬时解密。网关负责：多模型适配、月度费用与 Token 预算预检、计费日志审计（Audit Log），从物理层面上杜绝因 Agent 递归死循环造成的巨额账单风险。
+    - heading [level=2] [ref=e249]:
+      - link "2.4 三大智能体生态集成：Mem0 记忆、腾讯 WeKnora 知识库与 Langfuse/LangChain 观测体系" [ref=e250] [cursor=pointer]:
+        - /url: "#/?id=_24-%e4%b8%89%e5%a4%a7%e6%99%ba%e8%83%bd%e4%bd%93%e7%94%9f%e6%80%81%e9%9b%86%e6%88%90%ef%bc%9amem0-%e8%ae%b0%e5%bf%86%e3%80%81%e8%85%be%e8%ae%af-weknora-%e7%9f%a5%e8%af%86%e5%ba%93%e4%b8%8e-langfuselangchain-%e8%a7%82%e6%b5%8b%e4%bd%93%e7%b3%bb"
+    - paragraph [ref=e251]:
+      - text: 在 Pi Agent Core 的基础循环之上，系统通过标准化的集成适配器（Integrations Adapter），深度接入了三个业界顶尖的专用智能体生态系统，分别解决了智能体的
+      - strong [ref=e252]: “长效记忆”
+      - text: 、
+      - strong [ref=e253]: “权威知识”
+      - text: 与
+      - strong [ref=e254]: “生产可观测性”
+      - text: 三大难题：
+    - heading [level=3] [ref=e255]:
+      - link "1. Mem0：解决“跨会话长期失忆”的个性化客户记忆网络" [ref=e256] [cursor=pointer]:
+        - /url: "#/?id=_1-mem0%ef%bc%9a%e8%a7%a3%e5%86%b3%e8%b7%a8%e4%bc%9a%e8%af%9d%e9%95%bf%e6%9c%9f%e5%a4%b1%e5%bf%86%e7%9a%84%e4%b8%aa%e6%80%a7%e5%8c%96%e5%ae%a2%e6%88%b7%e8%ae%b0%e5%bf%86%e7%bd%91%e7%bb%9c"
+    - list [ref=e257]:
+      - listitem [ref=e258]:
+        - strong [ref=e259]: 业务痛点：
+        - text: 大模型的上下文窗口再大，一次会话关闭后就彻底遗忘。但真实销售业务跨度长达数月，客户的沟通偏好（如“习惯看书面报价而非电话推销”、“对交期极度敏感”）无法沉淀。
+      - listitem [ref=e260]:
+        - strong [ref=e261]: 系统接入与设计要点：
+        - list [ref=e262]:
+          - listitem [ref=e263]:
+            - strong [ref=e264]: 双轨制记忆分工：
+            - text: 系统严守“Postgres 保存客观强事实（SOT，如订单金额、客户电话），Mem0 保存语义偏好与动态加权上下文”。两者绝不混淆。
+          - listitem [ref=e265]:
+            - strong [ref=e266]: 租户与隐私哈希隔离：
+            - text: 为防止客户 PII 泄漏，系统向 Mem0 写入记忆时，并不传递原始用户 ID，而是以
+            - code [ref=e267]: sha256("crm-customer:v1:" + orgId + ":" + contactId)
+            - text: 作为隔离 Scope，确保跨租户绝对安全。
+          - listitem [ref=e268]:
+            - strong [ref=e269]: 两阶段确认状态机：
+            - text: Agent 提取出的客户偏好，先在 Postgres 标记为
+            - code [ref=e270]: in_flight
+            - text: ，经核验后才转为
+            - code [ref=e271]: confirmed
+            - text: 。客户下一次进线时，Agent 会在上下文装配阶段动态拉取 Mem0 记忆，实现“越聊越懂客户”的长效体验。
+    - heading [level=3] [ref=e272]:
+      - link "2. 腾讯 WeKnora：解决“政策断章取义与知识幻觉”的企业级 LLM Wiki" [ref=e273] [cursor=pointer]:
+        - /url: "#/?id=_2-%e8%85%be%e8%ae%af-weknora%ef%bc%9a%e8%a7%a3%e5%86%b3%e6%94%bf%e7%ad%96%e6%96%ad%e7%ab%a0%e5%8f%96%e4%b9%89%e4%b8%8e%e7%9f%a5%e8%af%86%e5%b9%bb%e8%a7%89%e7%9a%84%e4%bc%81%e4%b8%9a%e7%ba%a7-llm-wiki"
+    - list [ref=e274]:
+      - listitem [ref=e275]:
+        - strong [ref=e276]: 业务痛点：
+        - text: 普通向量检索（Naive RAG）常常将长文档切得支离破碎，导致 Agent 丢失上下文、引用过时政策，甚至胡乱编造报价。
+      - listitem [ref=e277]:
+        - strong [ref=e278]: 系统接入与设计要点：
+        - list [ref=e279]:
+          - listitem [ref=e280]:
+            - strong [ref=e281]: 为什么引入腾讯 WeKnora：
+            - text: WeKnora 是腾讯微信团队开源的企业级智能知识库与 Wiki 派生系统。它不仅能深度解析复杂文档，还能将原始文档派生为结构严谨、具备强关联的组织 Wiki 页面。
+          - listitem [ref=e282]:
+            - strong [ref=e283]: 带 64 位版本哈希的证据闭环：
+            - text: Agent 通过
+            - code [ref=e284]: searchCompanyWiki
+            - text: 检索时，获得的每条证据都严格绑定 64 位版本哈希与原文 Chunk 引用。Agent 输出方案时必须附带 Wiki 证据链接；若来源文档已被管理员撤回或过期，系统立即阻断引用。
+          - listitem [ref=e285]:
+            - strong [ref=e286]: 诚实缺口报告（Evidence Gap）：
+            - text: 若 WeKnora 中未命中已发布的权威页面，接口返回
+            - code [ref=e287]: "status: \"unavailable\""
+            - text: ，强制 Agent 如实回复“当前缺少相关产品政策依据”，彻底封死大模型伪造商业承诺的风险。
+    - heading [level=3] [ref=e288]:
+      - link "3. Langfuse & LangChain 生态：解决“黑盒黑产”的生产级 Trace 与自动化 Eval" [ref=e289] [cursor=pointer]:
+        - /url: "#/?id=_3-langfuse-amp-langchain-%e7%94%9f%e6%80%81%ef%bc%9a%e8%a7%a3%e5%86%b3%e9%bb%91%e7%9b%92%e9%bb%91%e4%ba%a7%e7%9a%84%e7%94%9f%e4%ba%a7%e7%ba%a7-trace-%e4%b8%8e%e8%87%aa%e5%8a%a8%e5%8c%96-eval"
+    - list [ref=e290]:
+      - listitem [ref=e291]:
+        - strong [ref=e292]: 业务痛点：
+        - text: Agent 是由多轮“模型推理-工具调用”组成的复合链路。一旦线上出现慢请求、死循环或错误回答，如果缺乏全链路监控，工程师无从排查。
+      - listitem [ref=e293]:
+        - strong [ref=e294]: 系统接入与设计要点：
+        - list [ref=e295]:
+          - listitem [ref=e296]:
+            - strong [ref=e297]: 全链路异步 Tracing：
+            - text: 系统在 Pi Agent Core 运行时内置了
+            - code [ref=e298]: RuntimeObservation
+            - text: 旁路监听。模型流式耗时、每次 Tool 执行参数与结果、Token 吞吐量均被结构化捕获，通过轻量事件异步投递至 Langfuse，对 CRM 业务主请求做到 0 毫秒延迟损耗。
+          - listitem [ref=e299]:
+            - strong [ref=e300]: PII 脱敏合规：
+            - text: 在将 Trace 数据上报给 Langfuse 之前，系统通过正则与脱敏守卫清洗掉电话、银行账户等敏感隐私，只保留结构化执行轨迹与状态元数据。
+          - listitem [ref=e301]:
+            - strong [ref=e302]: 自动化评测（Eval & Judge）：
+            - text: 系统结合 LangChain 生态与标准评测契约，建立双重门禁：
+            - strong [ref=e303]: 确定性断言（如工具调用成功率、敏感词拦截）
+            - text: +
+            - strong [ref=e304]: LLM-as-a-Judge（大模型裁判员语义打分）
+            - text: ，为每一次 Agent 执行给出量化评分，驱动 Prompt 与工具链的持续演进。
+    - separator [ref=e305]
+    - heading [level=1] [ref=e306]:
+      - link "总结：如何向他人介绍这个项目？" [ref=e307] [cursor=pointer]:
+        - /url: "#/?id=%e6%80%bb%e7%bb%93%ef%bc%9a%e5%a6%82%e4%bd%95%e5%90%91%e4%bb%96%e4%ba%ba%e4%bb%8b%e7%bb%8d%e8%bf%99%e4%b8%aa%e9%a1%b9%e7%9b%ae%ef%bc%9f"
+    - paragraph [ref=e308]: 当新成员或业务方问起这个项目时，可以用这三句话清晰总结：
+    - list [ref=e309]:
+      - listitem [ref=e310]:
+        - strong [ref=e311]: 在全栈层面：
+        - text: 它是一个基于 Next.js 16 和 Supabase Postgres 的自托管企业级 CRM，依靠 RLS 实现数据库层级的租户安全防线，依靠轻量级事件总线解耦前后端事务与外部通信。
+      - listitem [ref=e312]:
+        - strong [ref=e313]: 在智能体层面：
+        - text: 它以 Pi Agent Core 为运行时核心，把模型封装进严密的“思考-工具-观察”闭环，实现了专职 Agent 协同与结构化交付。
+      - listitem [ref=e314]:
+        - strong [ref=e315]: 在人机协作层面：
+        - text: 它牢牢守住“CRM 拥有事实、Agent 拥有推理、人类拥有最终决策”的安全铁律，通过行动提案（Proposal）与审批机制，让大模型在可控、可信、可解释的缰绳下服务于真实业务。
+    - separator [ref=e316]
+    - heading [level=1] [ref=e317]:
+      - link "章节目录与离线导航" [ref=e318] [cursor=pointer]:
+        - /url: "#/?id=%e7%ab%a0%e8%8a%82%e7%9b%ae%e5%bd%95%e4%b8%8e%e7%a6%bb%e7%ba%bf%e5%af%bc%e8%88%aa"
+    - heading [level=2] [ref=e319]:
+      - link "核心必读" [ref=e320] [cursor=pointer]:
+        - /url: "#/?id=%e6%a0%b8%e5%bf%83%e5%bf%85%e8%af%bb"
+    - list [ref=e321]:
+      - listitem [ref=e322]:
+        - link "👉《架构与面试深度 QA 指南（18 道核心题透析全栈与 Agent 底层）》" [ref=e323] [cursor=pointer]:
+          - /url: "#/QA-Interview-Guide"
+    - heading [level=2] [ref=e324]:
+      - link "产品与架构" [ref=e325] [cursor=pointer]:
+        - /url: "#/?id=%e4%ba%a7%e5%93%81%e4%b8%8e%e6%9e%b6%e6%9e%84"
+    - list [ref=e326]:
+      - listitem [ref=e327]:
+        - link "01 从客户问题开始认识 AI Native CRM" [ref=e328] [cursor=pointer]:
+          - /url: "#/pages/01"
+      - listitem [ref=e329]:
+        - link "02 一笔业务怎样经过 CRM 和 Agent" [ref=e330] [cursor=pointer]:
+          - /url: "#/pages/02"
+      - listitem [ref=e331]:
+        - link "03 代码地图与分层架构：请求走过哪些层" [ref=e332] [cursor=pointer]:
+          - /url: "#/pages/03"
+      - listitem [ref=e333]:
+        - link "04 数据地图：组织、身份、联系人和商机" [ref=e334] [cursor=pointer]:
+          - /url: "#/pages/04"
+      - listitem [ref=e335]:
+        - link "05 身份、角色与租户隔离：权限落在哪一层" [ref=e336] [cursor=pointer]:
+          - /url: "#/pages/05"
+      - listitem [ref=e337]:
+        - link "06 REST API：版本、双重鉴权、幂等与错误码" [ref=e338] [cursor=pointer]:
+          - /url: "#/pages/06"
+    - heading [level=2] [ref=e339]:
+      - link "CRM 业务链路" [ref=e340] [cursor=pointer]:
+        - /url: "#/?id=crm-%e4%b8%9a%e5%8a%a1%e9%93%be%e8%b7%af"
+    - list [ref=e341]:
+      - listitem [ref=e342]:
+        - link "07 客户 360：联系人、时间线与风险雷达" [ref=e343] [cursor=pointer]:
+          - /url: "#/pages/07"
+      - listitem [ref=e344]:
+        - link "08 Inbox：一条消息怎样进入、发送和刷新" [ref=e345] [cursor=pointer]:
+          - /url: "#/pages/08"
+      - listitem [ref=e346]:
+        - link "09 跟进引擎：流程图、时序计划与人工干预" [ref=e347] [cursor=pointer]:
+          - /url: "#/pages/09"
+      - listitem [ref=e348]:
+        - link "10 渠道：WhatsApp 接入与飞书内部协作" [ref=e349] [cursor=pointer]:
+          - /url: "#/pages/10"
+      - listitem [ref=e350]:
+        - link "11 商机看板：跟踪一次拖动直到数据库" [ref=e351] [cursor=pointer]:
+          - /url: "#/pages/11"
+      - listitem [ref=e352]:
+        - link "12 日程与预约：时段、日历同步和连接健康" [ref=e353] [cursor=pointer]:
+          - /url: "#/pages/12"
+      - listitem [ref=e354]:
+        - link "13 语音呼叫：SIP、事件桥接、同意与录音" [ref=e355] [cursor=pointer]:
+          - /url: "#/pages/13"
+    - heading [level=2] [ref=e356]:
+      - link "Agent 执行与治理" [ref=e357] [cursor=pointer]:
+        - /url: "#/?id=agent-%e6%89%a7%e8%a1%8c%e4%b8%8e%e6%b2%bb%e7%90%86"
+    - list [ref=e358]:
+      - listitem [ref=e359]:
+        - link "14 从聊天入口启动一次独立运行" [ref=e360] [cursor=pointer]:
+          - /url: "#/pages/14"
+      - listitem [ref=e361]:
+        - link "15 运行状态、持久队列、取消与恢复" [ref=e362] [cursor=pointer]:
+          - /url: "#/pages/15"
+      - listitem [ref=e363]:
+        - link "16 事件日志 Worker：去重、退避与死信" [ref=e364] [cursor=pointer]:
+          - /url: "#/pages/16"
+      - listitem [ref=e365]:
+        - link "17 多 Agent 编排：分工、租约与证据回收" [ref=e366] [cursor=pointer]:
+          - /url: "#/pages/17"
+      - listitem [ref=e367]:
+        - link "18 动作提案、人工审批与安全执行" [ref=e368] [cursor=pointer]:
+          - /url: "#/pages/18"
+      - listitem [ref=e369]:
+        - link "19 BYOK 与模型网关：凭据、绑定、成本和审计" [ref=e370] [cursor=pointer]:
+          - /url: "#/pages/19"
+      - listitem [ref=e371]:
+        - link "20 Pi 运行时：回合、上下文与工具循环" [ref=e372] [cursor=pointer]:
+          - /url: "#/pages/20"
+      - listitem [ref=e373]:
+        - link "21 预算、评审与失败：何时停止，怎样收尾" [ref=e374] [cursor=pointer]:
+          - /url: "#/pages/21"
+    - heading [level=2] [ref=e375]:
+      - link "知识、记忆与证据" [ref=e376] [cursor=pointer]:
+        - /url: "#/?id=%e7%9f%a5%e8%af%86%e3%80%81%e8%ae%b0%e5%bf%86%e4%b8%8e%e8%af%81%e6%8d%ae"
+    - list [ref=e377]:
+      - listitem [ref=e378]:
+        - link "22 客户记忆：把偏好变成有责任人的事实" [ref=e379] [cursor=pointer]:
+          - /url: "#/pages/22"
+      - listitem [ref=e380]:
+        - link "23 Mem0：排序与 SQL 事实如何分工" [ref=e381] [cursor=pointer]:
+          - /url: "#/pages/23"
+      - listitem [ref=e382]:
+        - link "24 Wiki、组织记忆与上下文投影" [ref=e383] [cursor=pointer]:
+          - /url: "#/pages/24"
+      - listitem [ref=e384]:
+        - link "25 RAG：索引、检索、版本引用与证据缺口" [ref=e385] [cursor=pointer]:
+          - /url: "#/pages/25"
+    - heading [level=2] [ref=e386]:
+      - link "质量与可观测性" [ref=e387] [cursor=pointer]:
+        - /url: "#/?id=%e8%b4%a8%e9%87%8f%e4%b8%8e%e5%8f%af%e8%a7%82%e6%b5%8b%e6%80%a7"
+    - list [ref=e388]:
+      - listitem [ref=e389]:
+        - link "26 Eval：把跑完拆成可检查的结论" [ref=e390] [cursor=pointer]:
+          - /url: "#/pages/26"
+      - listitem [ref=e391]:
+        - link "27 Trace：SQL 记录、Langfuse 与 OTLP 投递" [ref=e392] [cursor=pointer]:
+          - /url: "#/pages/27"
+      - listitem [ref=e393]:
+        - link "35 完成度与证据：实现、通过、上线各证明什么" [ref=e394] [cursor=pointer]:
+          - /url: "#/pages/35"
+    - heading [level=2] [ref=e395]:
+      - link "运行、部署与扩展" [ref=e396] [cursor=pointer]:
+        - /url: "#/?id=%e8%bf%90%e8%a1%8c%e3%80%81%e9%83%a8%e7%bd%b2%e4%b8%8e%e6%89%a9%e5%b1%95"
+    - list [ref=e397]:
+      - listitem [ref=e398]:
+        - link "28 本地运行与验证：环境、命令与证据范围" [ref=e399] [cursor=pointer]:
+          - /url: "#/pages/28"
+      - listitem [ref=e400]:
+        - link "29 外部服务接入：Supabase、Redis、WAHA 与嵌入" [ref=e401] [cursor=pointer]:
+          - /url: "#/pages/29"
+      - listitem [ref=e402]:
+        - link "30 演示、录制回放与数据播种" [ref=e403] [cursor=pointer]:
+          - /url: "#/pages/30"
+      - listitem [ref=e404]:
+        - link "31 自托管：安装、升级与健康检查" [ref=e405] [cursor=pointer]:
+          - /url: "#/pages/31"
+      - listitem [ref=e406]:
+        - link "32 仓库文档契约与阅读优先级" [ref=e407] [cursor=pointer]:
+          - /url: "#/pages/32"
+      - listitem [ref=e408]:
+        - link "33 内置开发技能、贡献流程与发布切版" [ref=e409] [cursor=pointer]:
+          - /url: "#/pages/33"
+      - listitem [ref=e410]:
+        - link "34 声明式扩展：准入、版本、租户激活与审计" [ref=e411] [cursor=pointer]:
+          - /url: "#/pages/34"
+    - heading [level=2] [ref=e412]:
+      - link "参考资料与规范附录" [ref=e413] [cursor=pointer]:
+        - /url: "#/?id=%e5%8f%82%e8%80%83%e8%b5%84%e6%96%99%e4%b8%8e%e8%a7%84%e8%8c%83%e9%99%84%e5%bd%95"
+    - list [ref=e414]:
+      - listitem [ref=e415]:
+        - link "附录 术语表" [ref=e416] [cursor=pointer]:
+          - /url: "#/pages/A1"
+      - listitem [ref=e417]:
+        - link "附录 图解与截图来源" [ref=e418] [cursor=pointer]:
+          - /url: "#/pages/A2"
+      - listitem [ref=e419]:
+        - link "附录 来源、版本与融合说明" [ref=e420] [cursor=pointer]:
+          - /url: "#/pages/A3"
+      - listitem [ref=e421]:
+        - link "附录 全库统一工程规范与免责约定" [ref=e422] [cursor=pointer]:
+          - /url: "#/pages/A4"
